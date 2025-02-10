@@ -4,7 +4,7 @@ services:
   app:
     image: 5fdcae015707
     container_name: app
-    build: ./
+    build: docker
     expose:
       - '8080'
     ports:
